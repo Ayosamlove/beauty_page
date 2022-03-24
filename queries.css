@@ -1,0 +1,35 @@
+@media screen and (max-width: 480px) {
+    * {
+        flex-wrap: wrap;
+        margin-left: 2%;
+        font-size: 20px; 
+        width: 100%; 
+    }
+
+    .Container-1{
+        justify-content: flex-start;
+    }
+    
+
+       body{
+       width: 100%;
+       flex-wrap: wrap;
+       }
+       .Container-1 li {
+           max-width: 100%;   
+       }
+       .Container-1 i{
+           max-width: 100%;
+       }
+        .text-main {
+            width: 100%;
+        }
+           
+        .main .picture-main {
+            justify-content: center;
+            
+    
+        }
+
+    
+}

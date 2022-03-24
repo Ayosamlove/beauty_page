@@ -1,0 +1,206 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #333438;
+  color: white;
+}
+
+.Container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.Container-1 div:first-child {
+  margin-left: 3%;
+}
+
+.Container-1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.Container-1 ul li a {
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.Container-1 i {
+  margin-right: 50px;
+}
+
+.Container-1 a:hover {
+  background-color: aqua;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3%;
+}
+
+.main .text-main {
+  margin-left: 3%;
+}
+
+.text-main p {
+  font-size: 1.15em;
+  color: #967936;
+}
+
+.text-main h1 {
+  font-size: 2.5em;
+}
+
+.text-main .nav {
+  margin-top: 10%;
+}
+
+.text-main .nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5%;
+  border: 2px solid white;
+  border-radius: 25px;
+  margin: 3%;
+  background-color: #9e6907;
+}
+
+.nav .nav1 {
+  border: 10px solid orange;
+  background-color: orange;
+  border-radius: 20px;
+}
+
+.m-main {
+  background-color: white;
+  color: black;
+}
+
+.m-main p:first-child {
+  color: orange;
+  margin-left: 2%;
+}
+
+.m-main h1 {
+  margin-left: 2%;
+}
+
+.main1 {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.main3 .main3-text {
+  margin-right: 40%;
+  margin-top: 5%;
+}
+
+.main3 .main3-text p {
+  color: orange;
+  font-size: larger;
+}
+
+.main3 .main3-text h1 {
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1%;
+  background-color: white;
+  color: black;
+}
+
+.main4 .main4-pic {
+  margin-top: 1%;
+  margin-left: 20%;
+}
+
+.main4 .main4-pic1 {
+  margin-right: 20%;
+  margin-top: 1%;
+}
+
+.main4 .main4-text {
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+.main5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main5-pic2 .main5-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 3%;
+  border: 3px solid white;
+  border-radius: 25px;
+  background-color: #b17815;
+  margin: 3%;
+}
+
+footer {
+  max-width: 90%;
+  background-color: #48494d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+footer .footer-text {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+/*# sourceMappingURL=styles.css.map */
