@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    // margin: 0;
+    // padding: 0;
 }
 
 body{
@@ -9,6 +11,7 @@ body{
 
 .Container-1{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid white;
@@ -16,6 +19,7 @@ body{
 
 .Container-1 div:first-child {
     margin-left: 3%;
+    width: 20%;
 }
 
 .Container-1 ul {
@@ -43,6 +47,14 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 3%;
+}
+
+.main > div{
+    // width: 50%;
+}
+
+.main > div:last-child img{
+    width: 100%;
 }
 
 .main .text-main {
@@ -79,6 +91,7 @@ body{
 }
 
 .m-main {
+    width: 100%;
     background-color: white;
     color: black;
 }
@@ -92,12 +105,26 @@ body{
     margin-left: 2%;
 }
 
-.main1 {
-    height: 200px;
+.main1{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 3%;
 }
 
+.main1 > div{
+    margin: 0 2%;
+}
+// .main1 {
+//     height: 200px;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-around;
+// }
+
+// .main1 > div{
+//     margin-right: 5%;
+// }
 .main3 {
     display: flex;
     justify-content: space-between;
@@ -105,8 +132,12 @@ body{
     margin-top: 1%;
 }
 
+.main3 > div{
+    width: 50%;
+}
+
 .main3 .main3-text {
-    margin-right: 40%;
+    margin-left: 4%;
     margin-top: 5%;
 }
 
@@ -120,21 +151,32 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.main3-pic img{
+    width: 100%;
+}
+
 .main4 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 1%;
     background-color: white;
     color: black;
-}   
+}  
+
+// .main4 > div{
+//     width: 33.3%;
+// }
 
 .main4 .main4-pic {
+    // width: 100%;
     margin-top: 1%;
-    margin-left: 20%;
+    margin: 0 4%;
 }
 
 .main4 .main4-pic1 {
-    margin-right: 20%;
+    // width: 100%;
+    margin-right: 4%;
     margin-top: 1%;
 }
 
@@ -146,6 +188,10 @@ body{
 .main5 {
     display: flex;
     justify-content: space-evenly;
+}
+
+.main5 > div:first-child{
+    margin-right: 4%;
 }
 
 .main5-pic2 .main5-nav a {
